@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      font-family: Verdana, sans-serif; /*https://www.w3schools.com/css/css_font.asp*/
+    }
+    /* stylize the button https://www.w3schools.com/css/css3_buttons.asp*/
+    /* same features in both buttons */
+    button {
+      font-family: Verdana, sans-serif;
+      font-size: 16px;
+      border-radius: 5px;
+      color: #324266; /*navy blue*/
+      background-color: #DDDDDD; /*light grey*/
+      border: 2px solid #324266; /*navy blue*/
+      padding: 12px 30px; /*height width*/
+      margin-bottom: 20px;
+      margin-left: 350px;
+    }
+    /*change color when pressed*/
+    button:hover {
+      background-color: #324266; /*navy blue*/
+      color: #D3E0FF; /*periwinkle*/
+    }
+    /*style input box*/
+    input {
+      width: 360px;
+      padding: 12px 20px;
+      color: #324266; /*navy blue*/
+      background-color: #D3E0FF; /*periwinkle*/
+      border: 2px solid #324266; /*navy blue*/
+      border-radius: 5px;
+    }
+    /*add space on the left of "City:"*/
+    p {
+      margin-left: 20px;
+      margin-bottom:0px;
+    }
+  </style>
+  <script src="../p5.js"></script>
+  <!-- <script src="../addons/p5.sound.js"></script> -->
+  <script src="sketch.js"></script>
+</head>
+
+<body>
+  <p>City: <input id="city"></input></p>
+  </br>
+  <button id="submit">Submit</button>
+</body>
+
+</html>
